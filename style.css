@@ -2,17 +2,19 @@ body{
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
+    
 }
 
 .header {
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
     justify-content: center;
     padding: 0 64px;
+
+    flex-wrap: wrap;
 }
 
 .heading{
@@ -40,13 +42,14 @@ a {
     text-decoration: none;
 }
 
-img {
+.hero-img {
     margin-top: 48px;
     max-height: 100%;
     width: auto;
 }
-.hero {
+.hero, .hero-img {
     display:flex;
+    flex-direction: column;
     justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;
@@ -80,4 +83,34 @@ button {
     justify-content: center;
     font-weight: 600;
     font-family: Tahoma, sans-serif;
+}
+
+.info {
+    display:flex;
+    align-items:stretch;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+    margin-bottom: 96px;
+  }
+
+.instance {
+    max-width: 200px;
+    text-align: center;
+  }
+
+.inin {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.infotitle {
+    display:flex;
+    flex-wrap: wrap;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1F2937;
+    justify-content: center;
+    margin:32px;
 }
