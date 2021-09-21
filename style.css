@@ -5,7 +5,7 @@ body{
     
 }
 
-.header {
+.header, .footer {
     display: flex;
     align-items: center;
     background-color: #1F2937;
@@ -15,6 +15,13 @@ body{
     padding: 0 64px;
 
     flex-wrap: wrap;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 24px;
 }
 
 .heading{
@@ -76,8 +83,8 @@ button {
     background-color: #3882f6;
     color:white;
     border-radius: 5px;
-    border: 1px;
-    width: 90px;
+    border: 2px solid white;
+    width: 100px;
     padding: 6px 15px 5px;
     align-items: center;
     justify-content: center;
@@ -140,4 +147,18 @@ button {
     margin-left: auto;
     margin-top: 6px;
     
+}
+
+.cta {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3882f6;
+    color:white;
+    border-radius: 5px;
+    padding: 16px;
+    margin:96px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+
 }
